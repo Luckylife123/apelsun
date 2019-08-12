@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="mediapark" translate="label" sortOrder="1000">
+            <label>Mediapark</label>
+        </tab>
+        <section id="mediapark" translate="label" type="text" sortOrder="260" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>Product cron</label>
+            <tab>mediapark</tab>
+            <resource>Mediapark_MagmiCron::mediapark</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Product cron</label>
+                <field id="cron_expression" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Add Item Cron Expression</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

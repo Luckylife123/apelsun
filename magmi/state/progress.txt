@@ -1,0 +1,26 @@
+title:MAGMI by dweeves - version:0.7.23-git
+startup:Running Magmi Product Import Engine v1.10 by dweeves
+startup:Import Profile:magento2
+startup:Import Mode:create
+step:step:0.5%
+startup:Attributeset update is disabled.
+title:MAGMI by dweeves - version:0.7.23-git
+startup:Import Profile:magento2
+startup:Import Mode:create
+step:step:0.5%
+startup:Attributeset update is disabled.
+info:Initialized attribute_set_infos!
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+startup:Performing Datasource Lookup...
+lookup:1:0.00099992752075195
+startup:Found 1 records, took 0.00099992752075195 sec
+columns:3
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:store,type,status,visibility,page_layout,tax_class_id
+startup:Ajusted processed columns:9
+itime:1 - 0 - 0
+dbtime:0 - 0 - 0 - 0
+itime:1 - 0.0090010166168213 - 0.0080010890960693
+dbtime:7 - 0.0070009231567383 - 0.0070009231567383 - 7
+info:Skus imported OK:1/1
+end:Import Ended

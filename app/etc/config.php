@@ -226,6 +226,7 @@ return [
         'MageBig_WysiwygFiles' => 1,
         'Magefan_Community' => 1,
         'Magefan_Blog' => 1,
+        'Mediapark_MagmiCron' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1
     ]
